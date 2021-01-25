@@ -10,6 +10,7 @@ exports[`should match snapshot when no props are passed in 1`] = `
     >
       <button
         class="rawToggle"
+        id="raw"
         style="color: rgb(152, 152, 152);"
       >
         Raw
@@ -29,6 +30,7 @@ exports[`should match snapshot when props are passed in 1`] = `
     >
       <button
         class="rawToggle"
+        id="raw"
         style="color: rgb(152, 152, 152);"
       >
         Raw

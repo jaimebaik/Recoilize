@@ -10,7 +10,8 @@ interface NetworkProps {
 
 const Network: React.FC<NetworkProps> = ({filteredCurSnap}) => {
   // an array of atoms and selector sub
-  const atomAndSelectorArr = Object.entries(filteredCurSnap);
+  let atomAndSelectorArr: [string, any][];
+  filteredCurSnap ? atomAndSelectorArr = Object.entries(filteredCurSnap) : atomAndSelectorArr = [];
   // state hook for keeping the zoom consistent despite rerenders
   const [{x, y, k}, setZoomState] = useState({x: 0, y: 0, k: 0});
 

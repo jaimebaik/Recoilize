@@ -36,27 +36,42 @@ exports[`if empty object props is passed into Network 1`] = `
         </g>
       </svg>
     </div>
-    <input
-      id="networkSearch"
-      placeholder="search for atoms..."
-      type="text"
-      value=""
-    />
     <div
-      class="AtomNetworkLegend"
+      class="LegendContainer"
     >
       <div
-        class="AtomLegend"
-      />
-      <p>
-        ATOM
-      </p>
-      <div
-        class="SelectorLegend"
-      />
-      <p>
-        SELECTOR
-      </p>
+        class="AtomNetworkLegend"
+      >
+        <input
+          id="networkSearch"
+          placeholder="search for state"
+          type="text"
+        />
+        <div
+          class="AtomDiv"
+        >
+          <div
+            class="AtomLegend"
+          />
+          <p
+            class="AtomP"
+          >
+            ATOM
+          </p>
+        </div>
+        <div
+          class="SelectorDiv"
+        >
+          <div
+            class="SelectorLegend"
+          />
+          <p
+            class="SelectorP"
+          >
+            SELECTOR
+          </p>
+        </div>
+      </div>
     </div>
   </div>
 </DocumentFragment>
@@ -263,27 +278,42 @@ exports[`if mock data object prop is passed into Network 1`] = `
         </g>
       </svg>
     </div>
-    <input
-      id="networkSearch"
-      placeholder="search for atoms..."
-      type="text"
-      value=""
-    />
     <div
-      class="AtomNetworkLegend"
+      class="LegendContainer"
     >
       <div
-        class="AtomLegend"
-      />
-      <p>
-        ATOM
-      </p>
-      <div
-        class="SelectorLegend"
-      />
-      <p>
-        SELECTOR
-      </p>
+        class="AtomNetworkLegend"
+      >
+        <input
+          id="networkSearch"
+          placeholder="search for state"
+          type="text"
+        />
+        <div
+          class="AtomDiv"
+        >
+          <div
+            class="AtomLegend"
+          />
+          <p
+            class="AtomP"
+          >
+            ATOM
+          </p>
+        </div>
+        <div
+          class="SelectorDiv"
+        >
+          <div
+            class="SelectorLegend"
+          />
+          <p
+            class="SelectorP"
+          >
+            SELECTOR
+          </p>
+        </div>
+      </div>
     </div>
   </div>
 </DocumentFragment>
@@ -325,27 +355,42 @@ exports[`renders & matches snapshot 1`] = `
         </g>
       </svg>
     </div>
-    <input
-      id="networkSearch"
-      placeholder="search for atoms..."
-      type="text"
-      value=""
-    />
     <div
-      class="AtomNetworkLegend"
+      class="LegendContainer"
     >
       <div
-        class="AtomLegend"
-      />
-      <p>
-        ATOM
-      </p>
-      <div
-        class="SelectorLegend"
-      />
-      <p>
-        SELECTOR
-      </p>
+        class="AtomNetworkLegend"
+      >
+        <input
+          id="networkSearch"
+          placeholder="search for state"
+          type="text"
+        />
+        <div
+          class="AtomDiv"
+        >
+          <div
+            class="AtomLegend"
+          />
+          <p
+            class="AtomP"
+          >
+            ATOM
+          </p>
+        </div>
+        <div
+          class="SelectorDiv"
+        >
+          <div
+            class="SelectorLegend"
+          />
+          <p
+            class="SelectorP"
+          >
+            SELECTOR
+          </p>
+        </div>
+      </div>
     </div>
   </div>
 </DocumentFragment>
